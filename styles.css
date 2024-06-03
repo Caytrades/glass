@@ -1,0 +1,22 @@
+body{
+    background-image: url("mk.jpg");
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: solid white 3px;
+    padding: 200px;
+}
+
+.box{
+    padding: 100px;
+    color: rgb(141, 135, 135);
+    border-radius: 20px;
+    border: rgb(255, 255, 255) solid 2px;
+    background-color: rgba(255, 255, 255, 0.275);
+}
